@@ -23,6 +23,12 @@ a full LVGL ui for EZ. an auton selector with per-auton options, live device hea
 | screen rotation — 0 / 180 landscape, 90 / 270 rebuild as a portrait ui with a bottom tab bar | emulator-verified |
 | flappy bird (landscape only) | verified extensively, priorities intact |
 
+<img width="474" height="272" alt="image" src="https://github.com/user-attachments/assets/7638f7cf-8641-4dad-b183-cebe6c353136" />
+<img width="430" height="226" alt="image" src="https://github.com/user-attachments/assets/6892fde1-e08b-4db2-8165-0a5ebc1a6ebf" />
+<img width="438" height="228" alt="image" src="https://github.com/user-attachments/assets/48930455-309a-45dc-9c17-427d6ccfee12" />
+<img width="458" height="256" alt="image" src="https://github.com/user-attachments/assets/e1b6fb4b-84bf-4103-aa8f-6ddebe47ae89" />
+
+
 ## usage
 
 ```cpp
