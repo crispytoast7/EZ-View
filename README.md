@@ -1,6 +1,6 @@
 # EZ-View
 
-a full LVGL ui for EZ. an auton selector with per-auton options, live device health, console, an SD-backed port table, and manual PID tuning. dark theme styled after the EZ docs with robodash-style navigation.
+a full LVGL ui for EZ. a new auton selector with per-auton options, live device health, console, an SD-backed port table, and manual PID tuning. dark theme styled after the EZ docs with robodash-style navigation.
 
 > ## ⚠️  important
 >
@@ -14,12 +14,11 @@ a full LVGL ui for EZ. an auton selector with per-auton options, live device hea
 |---|---|
 | auton selector — list + description, per-auton options (steppers / enum cyclers / toggles) readable from your auton code | emulator-verified |
 | backwards compatible with stock `ez::as::auton_selector.autons_add()` registration; selection syncs both ways | emulator-verified |
-| comp-switch + classic DOWN+B test-run flow | needs hardware |
-| SD persistence (`/usd/ez_screen.txt`): selection, options, pid constants, port table; graceful without a card | needs hardware |
+| SD persistence (`/usd/ez_screen.txt`): selection, options, pid constants, port table; should work without a card? | needs hardware |
 | device health — live motor temps with color tiers, imu / rotation / distance pings, missing-device warnings | needs hardware (emulator has no devices) |
 | console — colored, timestamped `ez_screen::log()` ring with scrollback | emulator-verified |
 | ports page — edit port / reversed / cartridge, persisted, applies at next boot | needs hardware |
-| tune page — manual pid constants applied live to the chassis (NOT the auto tuner) | needs hardware |
+| tune page — manual pid constants applied live to the chassis | needs hardware |
 | screen rotation — 0 / 180 landscape, 90 / 270 rebuild as a portrait ui with a bottom tab bar | emulator-verified |
 | flappy bird (landscape only) | verified extensively, priorities intact |
 
